@@ -8,3 +8,4 @@ git clone https://github.com/sam7862/samhr.git
 cd samhr
 ./sameer.sh
 ```
+<strong>Thanks</strong>
