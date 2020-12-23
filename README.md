@@ -5,6 +5,6 @@ To use the bomber type the following commands in Termux:
 pkg install git -y 
 pkg install python -y 
 git clone https://github.com/sam7862/samhr.git
-cd TBomb
-./TBomb.sh
+cd samhr
+./sameer.sh
 ```
