@@ -29,7 +29,7 @@ banner() {
     if ! [ -x "$(command -v figlet)" ]; then
         echo 'Introducing Samhr'
     else
-        figlet Hacker Sameer
+        figlet Sameer
     fi
     if ! [ -x "$(command -v toilet)" ]; then
         echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSamhr \e[0m"
