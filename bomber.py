@@ -52,12 +52,11 @@ def bann_text():
     clr()
     logo = """
    
- ____                        _          
-/ ___|  __ _ _ __ ___       | |__  _ __ 
-\___ \ / _` | '_ ` _ \      | '_ \| '__|
- ___) | (_| | | | | | |    _| | | | |   
-|____/ \__,_|_| |_| |_|___(_)_| |_|_|   
-                     |_____|            
+ ____                  _          
+/ ___|  __ _ _ __ ___ | |__  _ __ 
+\___ \ / _` | '_ ` _ \| '_ \| '__|
+ ___) | (_| | | | | | | | | | |   
+|____/ \__,_|_| |_| |_|_| |_|_|              
                                       """
     version = "Version: "+__VERSION__
     contributors = "Contributors: "+" ".join(__CONTRIBUTORS__)
@@ -88,11 +87,11 @@ def do_zip_update():
     # Unzip and overwrite the current folder
 
     if success:
-        mesgdcrt.SuccessMessage("Sam_.hr was updated to the latest version")
+        mesgdcrt.SuccessMessage("Samhr was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update Sam_.hr.")
+        mesgdcrt.FailureMessage("Unable to update Samhr.")
         mesgdcrt.WarningMessage(
             "url git")
 
@@ -119,11 +118,11 @@ def do_git_update():
     print("\n")
 
     if success:
-        mesgdcrt.SuccessMessage("Sam_.hr was updated to the latest version")
+        mesgdcrt.SuccessMessage("Samhr was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update TBomb.")
+        mesgdcrt.FailureMessage("Unable to update Samhr.")
         mesgdcrt.WarningMessage("Make Sure To Install 'git' ")
         mesgdcrt.GeneralMessage("Then run command:")
         print(
@@ -149,8 +148,8 @@ def check_for_updates():
         mesgdcrt.GeneralMessage("Starting update...")
         update()
     else:
-        mesgdcrt.SuccessMessage("Sam_.hr")
-        mesgdcrt.GeneralMessage("Starting Sam_.hr")
+        mesgdcrt.SuccessMessage("Samhr")
+        mesgdcrt.GeneralMessage("Starting Samhr")
 
 
 def notifyen():
