@@ -35,7 +35,7 @@ banner() {
         echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSamhr \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border Sam_.hr
+        toilet -f mono12 -F border Samhr
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
     echo -e "\e[1;32m           Mail me: cyberninza786@gmail.com \e[0m"
