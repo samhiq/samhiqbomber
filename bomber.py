@@ -209,7 +209,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("Sam_.hr was created by Sameer")
+    mesgdcrt.SuccessMessage("Samhr was created by Sameer")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
@@ -319,7 +319,7 @@ def selectnode(mode="sms"):
             except KeyboardInterrupt as ki:
                 raise ki
             except Exception:
-                mesgdcrt.FailureMessage("Read Instructions Carefully !!!")
+                mesgdcrt.FailureMessage("Read Instructions Carefully !!!(Samhr)")
                 print()
 
         workernode(mode, cc, target, count, delay, max_threads)
