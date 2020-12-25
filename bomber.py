@@ -68,7 +68,7 @@ def bann_text():
 
 def check_intr():
     try:
-        requests.get("https://motherfuckingwebsite.com")
+        requests.get("https://samhr.freetzi.com/")
     except Exception:
         bann_text()
         mesgdcrt.FailureMessage("Poor internet connection detected")
