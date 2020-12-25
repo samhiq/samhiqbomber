@@ -105,7 +105,7 @@ fi
 while :
 do
     banner
-    echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
+    echo -e "\e[4;31m Please Read Instruction Carefully (Sameer)!!! \e[0m"
     echo " "
     echo "Press 1 To  Start SMS  Bomber "
     echo "Press 2 To  Start CALL Bomber "
