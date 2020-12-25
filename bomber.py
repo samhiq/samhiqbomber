@@ -56,7 +56,7 @@ def bann_text():
 / ___|  __ _ _ __ ___ | |__  _ __ 
 \___ \ / _` | '_ ` _ \| '_ \| '__|
  ___) | (_| | | | | | | | | | |   
-|____/ \__,_|_| |_| |_|_| |_|_|              
+|____/ \__,_|_| |_| |_|_| |_|_|(hacker sameer)              
                                       """
     version = "Version: "+__VERSION__
     contributors = "Contributors: "+" ".join(__CONTRIBUTORS__)
