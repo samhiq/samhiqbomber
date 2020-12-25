@@ -1,3 +1,5 @@
+# Warning!!
+ We are not responsible for misuse of this tool 
 ### For Termux
 
 To use the bomber type the following commands in Termux:
