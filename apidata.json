@@ -1,5 +1,5 @@
 {
-    "contributors":["TheSpeedX","Avinash","Reiltar"],
+    "contributors":["Sam"],
     "version":"2.1",
     "sms": {
         "91": [
@@ -37,8 +37,8 @@
                 "url": "https://www.gapoon.com/userSignup",
                 "data": {
                     "mobile": "{target}",
-                    "email": "SpeedX@gmail.com",
-                    "name": "SpeedX"
+                    "email": "rebita5675@gotkmail.com",
+                    "name": "jack"
                 },
                 "identifier": "1"
             },
