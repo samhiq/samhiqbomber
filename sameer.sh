@@ -27,16 +27,16 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing Samhr'
+        echo 'Introducing Samhq'
     else
         figlet hacker
         figlet Sameer
     fi
     if ! [ -x "$(command -v toilet)" ]; then
-        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSamhr \e[0m"
+        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSamhq \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border Samhr
+        toilet -f mono12 -F border Samhq
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
     echo -e "\e[1;32m           Mail me: cyberninza786@gmail.com \e[0m"
