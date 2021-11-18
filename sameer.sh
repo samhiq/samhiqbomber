@@ -40,7 +40,7 @@ banner() {
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
     echo -e "\e[1;32m           Mail me: cyberninza786@gmail.com \e[0m"
-    echo -e "\e[4;32m   YouTube: Info Sam \e[0m"
+    echo -e "\e[4;32m   YouTube: samhq_code_78 \e[0m"
     echo " "
 
 }
