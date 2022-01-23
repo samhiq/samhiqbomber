@@ -321,7 +321,7 @@ def selectnode(mode="sms"):
             except KeyboardInterrupt as ki:
                 raise ki
             except Exception:
-                mesgdcrt.FailureMessage("Read Instructions Carefully !!!(Samhr)")
+                mesgdcrt.FailureMessage("Read Instructions Carefully !!!(Samhiq)")
                 print()
 
         workernode(mode, cc, target, count, delay, max_threads)
@@ -332,7 +332,7 @@ def selectnode(mode="sms"):
 
 mesgdcrt = MessageDecorator("icon")
 if sys.version_info[0] != 3:
-    mesgdcrt.FailureMessage("Sam_.hr will work only in Python v3")
+    mesgdcrt.FailureMessage("Samhiq will work only in Python v3")
     sys.exit()
 
 try:
@@ -350,12 +350,12 @@ RESET_ALL = Style.RESET_ALL
 
 description = """TBomb - Your Friendly Spammer Application
 
-Sam_.hr can be used for many purposes which incudes -
+Samhiq can be used for many purposes which incudes -
 \t Exposing the vulnerable APIs over Internet
 \t Friendly Spamming
 \t Testing Your Spam Detector and more ....
 
-Sam_.hr is not intented for malicious uses.
+Samhiq is not intented for malicious uses.
 """
 
 parser = argparse.ArgumentParser(description=description,
