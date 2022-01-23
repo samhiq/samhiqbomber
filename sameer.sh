@@ -27,20 +27,20 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing Samhq'
+        echo 'Introducing Samhiq'
     else
         figlet hacker
-        figlet Samhq
+        figlet Samhiq
     fi
     if ! [ -x "$(command -v toilet)" ]; then
-        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSamhq \e[0m"
+        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSamhiq \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border Samhq
+        toilet -f mono12 -F border Samhiq
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
     echo -e "\e[1;32m           Mail me: cyberninza786@gmail.com \e[0m"
-    echo -e "\e[4;32m   YouTube: samhq_code_78 \e[0m"
+    echo -e "\e[4;32m   YouTube:  \e[0m"
     echo " "
 
 }
@@ -98,7 +98,7 @@ else
     echo .
     echo .
     install_deps
-    echo This Script Was Made By Samhq > .update
+    echo This Script Was Made By Samhiq > .update
     echo 'Requirements Installed....'
     pause
 fi
@@ -127,7 +127,7 @@ do
         echo -e "\e[1;34m Downloading Latest Files..."
         rm -f .update
         $PYTHON bomber.py --update
-        echo -e "\e[1;34m RUN Sam_.hr Again..."
+        echo -e "\e[1;34m RUN Samhiq Again..."
         pause
         exit
     elif [ $ch -eq 5 ];then
