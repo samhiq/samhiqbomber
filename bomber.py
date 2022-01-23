@@ -89,11 +89,11 @@ def do_zip_update():
     # Unzip and overwrite the current folder
 
     if success:
-        mesgdcrt.SuccessMessage("Samhr was updated to the latest version")
+        mesgdcrt.SuccessMessage("Samhiq was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update Samhr.")
+        mesgdcrt.FailureMessage("Unable to update Samhiq.")
         mesgdcrt.WarningMessage(
             "url git")
 
@@ -120,7 +120,7 @@ def do_git_update():
     print("\n")
 
     if success:
-        mesgdcrt.SuccessMessage("Samhr was updated to the latest version")
+        mesgdcrt.SuccessMessage("Samhiq was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
@@ -143,21 +143,21 @@ def update():
 def check_for_updates():
     mesgdcrt.SectionMessage("Checking for updates")
     fver = requests.get(
-            "https://raw.githubusercontent.com/sam7862/samhr/main/.version"
+            "https://raw.githubusercontent.com/sam7862/samhiq/main/.version"
             ).text.strip()
     if fver != __VERSION__:
         mesgdcrt.WarningMessage("An update is available")
         mesgdcrt.GeneralMessage("Starting update...")
         update()
     else:
-        mesgdcrt.SuccessMessage("Samhr")
-        mesgdcrt.GeneralMessage("Starting Samhr")
+        mesgdcrt.SuccessMessage("Samhiq")
+        mesgdcrt.GeneralMessage("Starting Samhiq")
 
 
 def notifyen():
     try:
         noti = requests.get(
-            "https://raw.githubusercontent.com/sam7862/samhr/main/.notify"
+            "https://raw.githubusercontent.com/sam7862/samhiq/main/.notify"
             ).text.upper()
         if len(noti) > 10:
             mesgdcrt.SectionMessage("NOTIFICATION: " + noti)
