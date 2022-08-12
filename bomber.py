@@ -52,13 +52,12 @@ def bann_text():
     clr()
     logo = """
    
- ____                  _
-/ ___|  __ _ _ __ ___ | |__   __ _
-\___ \ / _` | '_ ` _ \| '_ \ / _` |
- ___) | (_| | | | | | | | | | (_| |
-|____/ \__,_|_| |_| |_|_| |_|\__, |
-         (Hacker Samhq)         |_|   
-              
+                     _     _       
+ ___  __ _ _ __ ___ | |__ (_) __ _ 
+/ __|/ _` | '_ ` _ \| '_ \| |/ _` |
+\__ \ (_| | | | | | | | | | | (_| |
+|___/\__,_|_| |_| |_|_| |_|_|\__, |
+    (Hacker Samhiq)             |_|
                                       """
     version = "Version: "+__VERSION__
     contributors = "Contributors: "+" ".join(__CONTRIBUTORS__)
@@ -70,7 +69,7 @@ def bann_text():
 
 def check_intr():
     try:
-        requests.get("https://samhr.freetzi.com/")
+        requests.get("https://samhiq.in/")
     except Exception:
         bann_text()
         mesgdcrt.FailureMessage("Poor internet connection detected")
