@@ -39,8 +39,8 @@ banner() {
         toilet -f mono12 -F border Samhiq
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
-    echo -e "\e[1;32m           Mail me: cyberninza786@gmail.com \e[0m"
-    echo -e "\e[4;32m   YouTube:  \e[0m"
+    echo -e "\e[1;32m           Mail me: samhiqhacker@gmail.com \e[0m"
+    echo -e "\e[4;32m   YouTube:samhiq  \e[0m"
     echo " "
 
 }
@@ -105,7 +105,7 @@ fi
 while :
 do
     banner
-    echo -e "\e[4;31m Dont use this tool for taking revenge this tool is just for fun and educational purpose(Sameer)!!! \e[0m"
+    echo -e "\e[4;31m Dont use this tool for taking revenge this tool is just for fun and educational purpose(Samhiq)!!! \e[0m"
     echo " "
     echo "Press 1 To  Start SMS  Bomber "
     echo "Press 2 To  Start CALL Bomber "
