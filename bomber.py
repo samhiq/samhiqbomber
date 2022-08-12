@@ -123,7 +123,7 @@ def do_git_update():
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update Samhr.")
+        mesgdcrt.FailureMessage("Unable to update Samhiq.")
         mesgdcrt.WarningMessage("Make Sure To Install 'git' ")
         mesgdcrt.GeneralMessage("Then run command:")
         print(
@@ -210,7 +210,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("Samhr was created by Sameer")
+    mesgdcrt.SuccessMessage("Samhiq was created by Sameer")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
