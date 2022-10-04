@@ -69,7 +69,7 @@ def bann_text():
 
 def check_intr():
     try:
-        requests.get("https://samhiq.in/")
+        requests.get("https://google.com/")
     except Exception:
         bann_text()
         mesgdcrt.FailureMessage("Poor internet connection detected")
