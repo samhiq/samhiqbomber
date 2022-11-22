@@ -39,7 +39,7 @@ banner() {
         toilet -f mono12 -F border Samhiq
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
-    echo -e "\e[1;32m           Mail me: samhiqhacker@gmail.com \e[0m"
+    echo -e "\e[1;32m           Mail me: samhiqofficial.com \e[0m"
     echo -e "\e[4;32m   YouTube:samhiq  \e[0m"
     echo " "
 
