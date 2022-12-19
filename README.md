@@ -1,4 +1,4 @@
-# Warning!!
+# Warning!! Currently we are updating this script
  We are not responsible for misuse of this tool 
 ### For Termux
 
