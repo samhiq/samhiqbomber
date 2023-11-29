@@ -14,7 +14,7 @@ pkg install python -y
 To use the samhiq mailer type the following commands in terminal:
 ```shell script
 git clone https://github.com/samhiq/samhiq.git
-cd samhiqr
+cd samhiq
 bash samhiq.py
 ```
 
