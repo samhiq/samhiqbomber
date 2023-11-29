@@ -9,7 +9,7 @@ pkg install python -y
 
 ```
 
-### COMMANDS TO USE SAMHIQ MAILER
+### COMMANDS TO USE THIS SCRIPT 
 
 To use the samhiq mailer type the following commands in terminal:
 ```shell script
