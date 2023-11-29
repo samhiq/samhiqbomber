@@ -15,7 +15,7 @@ To use the samhiq mailer type the following commands in terminal:
 ```shell script
 git clone https://github.com/samhiq/samhiq.git
 cd samhiq
-bash samhiq.py
+bash sameer.sh
 ```
 
 <strong>SAMHIQ</strong><br>
