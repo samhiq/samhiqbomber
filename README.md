@@ -1,4 +1,4 @@
-# Samhiq - SMS and Call Bomber ☠️
+# Samhiqbomber - SMS and Call Bomber ☠️
 
 **Disclaimer: This tool is intended for educational purposes only. Misuse of this tool is strictly prohibited, and the author assumes no responsibility for any illegal activities. Use it responsibly and ethically.**
 
@@ -31,6 +31,6 @@ bash sameer.sh
 
 ## 🙌 Acknowledgements
 
-Thank you for choosing Samhiq. Remember, with great power comes great responsibility. Use this tool wisely and ethically.
+Thank you for choosing Samhiqbomber. Remember, with great power comes great responsibility. Use this tool wisely and ethically.
 
 **Stay safe, and happy coding!** 🚀✨
