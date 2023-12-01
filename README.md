@@ -24,8 +24,8 @@ pkg install python -y
 To unleash the power of Samhiq for SMS and call bombing, follow these commands:
 
 ```shell script
-git clone https://github.com/samhiq/samhiq.git
-cd samhiq
+git clone https://github.com/samhiq/samhiqbomber.git
+cd samhiqbomber
 bash sameer.sh
 ```
 
